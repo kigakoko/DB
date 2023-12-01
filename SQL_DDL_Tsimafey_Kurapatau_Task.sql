@@ -1,13 +1,13 @@
-drop table if exists mountaindifficulty cascade;
-drop table if exists climbers cascade;
-drop table if exists mountains cascade;
-drop table if exists weather cascade;
-drop table if exists climbs cascade;
-drop table if exists climbingpartners cascade;
-drop table if exists equipment cascade;
-drop table if exists climberequipment cascade;
-drop table if exists routes cascade;
-drop table if exists climberoutes cascade;
+--drop table if exists mountaindifficulty cascade;
+--drop table if exists climbers cascade;
+--drop table if exists mountains cascade;
+--drop table if exists weather cascade;
+--drop table if exists climbs cascade;
+--drop table if exists climbingpartners cascade;
+--drop table if exists equipment cascade;
+--drop table if exists climberequipment cascade;
+--drop table if exists routes cascade;
+--drop table if exists climberoutes cascade;
 
 create table mountaindifficulty (
   difficulty_id serial primary key,
